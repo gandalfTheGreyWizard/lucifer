@@ -1,0 +1,2 @@
+// list administrative 1 level shapes
+curl http://localhost:3000/shapes/adm1

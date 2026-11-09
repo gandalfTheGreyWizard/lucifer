@@ -1,1 +1,9 @@
-<div #myMapCanvas id="map"></div>
+<mat-drawer-container>
+    <mat-drawer mode='side' #drawer>
+      <app-map-side-nav-container (urlEmitter)="urlDataPull($event)"></app-map-side-nav-container>
+    </mat-drawer>
+    <mat-drawer-content>
+      <button (click)="drawer.toggle()" id='drawerToggle'>Dabao</button>
+      <div #myMapCanvas id="map"></div>
+    </mat-drawer-content>
+</mat-drawer-container>

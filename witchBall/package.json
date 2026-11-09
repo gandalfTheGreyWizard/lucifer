@@ -11,10 +11,12 @@
   "private": true,
   "packageManager": "npm@10.9.8",
   "dependencies": {
+    "@angular/cdk": "^22.1.1",
     "@angular/common": "^22.1.0",
     "@angular/compiler": "^22.1.0",
     "@angular/core": "^22.1.0",
     "@angular/forms": "^22.1.0",
+    "@angular/material": "^22.1.1",
     "@angular/platform-browser": "^22.1.0",
     "@angular/router": "^22.1.0",
     "@deck.gl/core": "^9.3.7",
@@ -22,6 +24,7 @@
     "@deck.gl/layers": "^9.3.7",
     "@deck.gl/mapbox": "^9.3.7",
     "@deck.gl/widgets": "^9.3.7",
+    "@types/geojson": "^7946.0.16",
     "mapbox-gl": "^3.28.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0"

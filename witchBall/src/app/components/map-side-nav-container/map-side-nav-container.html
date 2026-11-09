@@ -1,0 +1,8 @@
+<form [formGroup]="getDataForm" (ngSubmit)="getData()">
+  <mat-form-field>
+    <mat-label>Url</mat-label>
+    <input matInput formControlName="url" placeholder="paste data url">
+    <mat-icon matSuffix>link</mat-icon>
+  </mat-form-field>
+  <button matButton="elevated" (click)="getData()">Get</button>
+</form>
